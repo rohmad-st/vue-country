@@ -1,23 +1,24 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <router-view></router-view>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="text-center mt">
+            <p>Created &copy; 2017 by <a target="_blank" href="https://github.com/rohmad-st">Rohmad Sasmito</a></p>
+        </div>
+    </footer>
   </div>
 </template>
 
 <script>
+require('./assets/sass/app.scss');
+
 export default {
   name: 'app',
 };
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
