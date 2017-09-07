@@ -12,4 +12,4 @@ npm install
 npm run dev
 ```
 
-For detailed explanation on how vuex work you can read more [docs for vuex](vuex.vuejs.org/en/intro.html).
+For detailed explanation on how vuex work you can read more [docs for vuex](https://vuex.vuejs.org/en/intro.html).
